@@ -218,4 +218,6 @@ for key, value in dic.items():
 dic.clear()
 print(dic)
 
-#
+#집합 만들기
+s1 = {1, 2, 'a', 5}
+s2 = set([1, 2, 3, 4, ])
