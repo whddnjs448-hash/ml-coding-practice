@@ -373,4 +373,8 @@ print(max("Python"))
 print(min([1, 4, 2, 8, 6]))
 print(min("Python"))
 
-#
+#x의 y제곱 결과값 반환
+print(pow(2,4))
+
+#사용자 입력으로 받은 값을 문자열로 반환1
+c = 
