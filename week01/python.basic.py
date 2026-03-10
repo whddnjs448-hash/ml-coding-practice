@@ -357,4 +357,5 @@ print((1, 2, 3))
 print(tuple("Python"))
 print(tuple([1, 2, 3]))
 
-#x를 튜
+#x의 자료형을 반환
+print(type("abc"))
