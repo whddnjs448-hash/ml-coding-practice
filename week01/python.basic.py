@@ -64,7 +64,7 @@ print(a.upper())
 print(a.lower())
 
 #공백 제거
-d = "       Py        "
+d = "         py         "
 print(d.lstrip())
 print(d.rstrip())
 print(d.strip())
