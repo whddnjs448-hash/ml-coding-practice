@@ -277,4 +277,7 @@ print('i' not in 'Python')
 if money >= 10:
     pass
 else:
-    print('저')
+    print('저금하자!')
+    
+"""# 4. 반복문"""
+test_l
