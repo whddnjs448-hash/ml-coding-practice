@@ -290,4 +290,5 @@ number = 0
 for score in [90, 25, 67, 45, 93]:
     number += 1
     
-    if score >
+    if score >60:
+        print("%d 번 학생은 합격합니다" % number)
