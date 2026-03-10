@@ -444,4 +444,8 @@ f.close()
 
 #파일 모드 'r' - readlines()
 f = open('example.txt', 'r')
-lines = f.readlines
+lines = f.readlines()
+print(lines)
+
+for line in lines:
+    prin
