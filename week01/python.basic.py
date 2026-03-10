@@ -343,4 +343,8 @@ print(ord('0'))
 
 #객체 x가 가진 멤버 변수와 함수 보여주기
 print(dir([1, 2, 3]))
-print(dir)
+print(dir({'1':'a'}))
+print(dir(1))
+
+print(int('3'))
+print(str(3))
