@@ -302,4 +302,8 @@ while i < 5:
     print('*' * i)
     
 #함수 정의 
-de
+def sum1(a,b):
+    x = a + b
+    return x
+
+def sum2(*ar)
