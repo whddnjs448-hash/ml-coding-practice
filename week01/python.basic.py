@@ -309,7 +309,7 @@ def sum1(a,b):
     x = a + b
     return x
 
-def sum2(**args):
+def sum2(*args):
     x = 0
     for i in args:
         x += i
@@ -326,7 +326,7 @@ print(sum2(2, 3.5, 10))
 """## 내장 함수"""
 
 #숫자 x의 절대값을 반환 
-print(abs(-3,5))
+print(abs(-3.5))
 
 #그룹 자료형의 변수 x의 모든 원소가 참(0이 아닌 값)이며 True 반환
 print(all([1, 2, 3, 4]))
