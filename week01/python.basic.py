@@ -351,4 +351,4 @@ print(str(3))             #x를 문자열 형태로 반환
 
 # x를 리스트로 반환
 print(list("Python"))
-print((1, 2, 3)
+print((1, 2, 3))
