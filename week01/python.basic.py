@@ -326,8 +326,8 @@ print(sum2(2, 3.5, 10))
 print(abs(-3,5))
 
 #그룹 자료형의 변수 x의 모든 원소가 참(0이 아닌 값)이며 True 반환
-print(all[1, 2, 3, 4])
-print(all[4, -2, 0.0, 4])
+print(all([1, 2, 3, 4]))
+print(all([4, -2, 0.0, 4]))
 
 #아스키코드 값에 대한 문자 출력
 print(chr(97))
@@ -338,4 +338,4 @@ print(ord('a'))
 print(ord('0'))
 
 #객체 x가 가진 멤버 변수와 함수 보여주기
-print(dir([1, 2, 3])
+print(dir([1, 2, 3]))
