@@ -282,4 +282,9 @@ else:
 """# 4. 반복문"""
 test_list = ['one', 'two', 'three']
 for i in test_list:
-    x = i + 
+    x = i + '!'
+    print(x)
+    
+#for 반복문2
+number = 0
+for score in [90, 25]
