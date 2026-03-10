@@ -78,4 +78,5 @@ a = "Python is diffcult"
 print(a.replace("difficult", "funny"))
 print(a)
 
-#문자열
+#문자열 바꾸기
+print(a.split())
