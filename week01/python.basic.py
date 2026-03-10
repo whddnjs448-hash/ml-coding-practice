@@ -94,4 +94,8 @@ d= [1,2, [3,4],['Life','is']]
 #리스트 인덱싱
 print(d[0])
 print(d[2])
-print(d[3][-])
+print(d[3][-1])
+
+#리스트 연결
+print(a + b)
+print(b[0] + )
