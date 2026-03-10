@@ -193,4 +193,8 @@ print(dic)
 del dic[1]
 print(dic)
 
-#워
+#원소의 value 구하기
+print(dic['phone'])
+print(dic['name'])
+
+#key의 리스트 만드
