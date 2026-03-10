@@ -334,7 +334,7 @@ print(all([4, -2, 0.0, 4]))
 
 #그룹 자료형의 변수 x의 원소 중 하나라도 참이면 True 반환
 print(any([1, 2, 3, 4]))
-print(any[(4, -2, 0.0, 4)])
+print(any[(4, -2, 0.0, 4])
 
 #아스키코드 값에 대한 문자 출력
 print(chr(97))
@@ -406,7 +406,7 @@ print(sorted('Python'))
 # Request('http://www.sunmoon.ac.kr') #오류 발생
 
 import urllib.request
-urllib.request.Request('http//www.sunmoon.ac.kr')
+urllib.request.Request('http://www.sunmoon.ac.kr')
 
 import pandas
 pandas.DataFrame()
