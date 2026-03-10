@@ -419,4 +419,6 @@ print(f)
 f.close()
 
 #파일 쓰기
-f = open('exam')
+f = open('example.txt', 'w')
+for i in range(1, 6):
+    data = '%d번'
