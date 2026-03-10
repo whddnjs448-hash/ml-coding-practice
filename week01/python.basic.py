@@ -280,4 +280,6 @@ else:
     print('저금하자!')
     
 """# 4. 반복문"""
-test_l
+test_list = ['one', 'two', 'three']
+for i in test_list:
+    x = i + 
