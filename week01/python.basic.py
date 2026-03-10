@@ -331,7 +331,8 @@ print(all([4, -2, 0.0, 4]))
 
 #그룹 자료형의 변수 x의 원소 중 하나라도 참이면 True 반환
 print(any([1, 2, 3, 4]))
-print(any[])
+print(any[(4, -2, 0.0, 4)])
+
 #아스키코드 값에 대한 문자 출력
 print(chr(97))
 print(chr(48))
@@ -342,3 +343,4 @@ print(ord('0'))
 
 #객체 x가 가진 멤버 변수와 함수 보여주기
 print(dir([1, 2, 3]))
+print(dir)
