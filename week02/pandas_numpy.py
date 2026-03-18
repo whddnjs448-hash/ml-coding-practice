@@ -79,6 +79,6 @@ print(df.head())
 condition = (
     (df['comment_lenght'] >=100) & #댓글 길이 100자 이상
     (df['likes'] >= 20) &          #좋아요 20개 이상
-    (~df['is_spam'])&
-    (df[has])
-)
+    (~df['is_spam'])&              #스팸 댓글이 아니어야 함
+    (df['has_image'])              #이미지가 포한된 댓글ㅇ
+) 
