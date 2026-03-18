@@ -100,4 +100,8 @@ print(sample_df.agg(['count', 'mean', 'std', 'min', 'max']))
 file_url ='https://media.githubusercontent.com/media/musthave-ML10/data_source/main/iris.csv'
 iris = pd.read_csv(file_url)
 
-print(iris.h)
+print(iris.head())
+
+print(iris.groupby('class').std())
+
+print(iris.drop(''))
