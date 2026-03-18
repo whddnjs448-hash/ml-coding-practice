@@ -216,4 +216,5 @@ a = np.arange(8).reshape(2, 4) ** 2
 print(a)
 
 print(a.sum()) #모든 요소의 합
-print(a.mean())  #a
+print(a.mean())  #모든 요소의 평군
+print(a.mean(axis = 0))  #열을 기준으로 연산 
