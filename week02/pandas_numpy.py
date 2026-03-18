@@ -150,4 +150,7 @@ averge_df = df[['name', 'average']]
 print(averge_df)
 
 # 2.2 넘파이
-imp
+import numpy as np
+
+print(np.array([1,2,3],
+               []))
