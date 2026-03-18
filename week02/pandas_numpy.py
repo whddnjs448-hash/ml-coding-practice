@@ -121,4 +121,9 @@ data = {
     'salary': [70000.00, 80000.00, 90000.00, 60000.00, 95000.00]
 }
 
-# Dataframe 생
+# Dataframe 생성
+df = pd.DataFrame(data)
+print(df.head())
+
+#나이가 30이상인 직원의 이름과 급여 반환
+re
