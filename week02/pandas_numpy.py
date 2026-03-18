@@ -72,4 +72,4 @@ data = {
     'has_image': [True, False, True, True, False, False, True, True]
 }
 
-df = pd.Da
+df = pd.DataFrame(data)
