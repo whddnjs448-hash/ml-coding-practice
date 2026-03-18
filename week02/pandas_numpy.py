@@ -202,4 +202,6 @@ print(np.random.randint(50, 71, 10))
 print(np.random.choice(['red', 'green','white','black','black','blue'],size=3))
 print(np.random.choice['red','green','white','black','blue'],size=3, replace=False)
 
-print(np.)
+print(np.arange(1,11))
+print(np.arange(1,11,2))
+print(np.linspace(1,100,10)) #
