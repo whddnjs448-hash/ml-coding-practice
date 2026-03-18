@@ -222,4 +222,6 @@ print(a.mean(axis = 0))  #열을 기준으로 연산
 print(a.min())  #모든 요소 중 최솟값
 print(a.max())  #모든 요소 중 최대값
 
-print(a.max(a)) 
+print(a.max(axis=1))
+print(a.cumsum())  #모든 요소의 누적합
+print(a.argmax())  #모든 요소 중 최대값의 인덱스
