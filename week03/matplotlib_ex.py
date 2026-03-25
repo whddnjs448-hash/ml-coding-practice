@@ -90,4 +90,4 @@ print(titanic.info())
 
 #산점도 그래프 그리기
 plt.figure(figsize=(12,8))
-scatter = plt.scatter(x='Age', y=)
+scatter = plt.scatter(x='Age', y='Fare', data=titanic, c=titanic['Survived'])
