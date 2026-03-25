@@ -27,4 +27,6 @@ plt.plot(pclass_survived_mean['Pclass'],pclass_survived_mean['Survived'],
         marker = 'o', linestye='-', color = 'violet')
 plt.title('Survival Rate Variation Across Passenger Classes')
 plt.xlabel('Pclass')
-plt.ylabel('Sur')
+plt.ylabel('Survival Rate')
+plt.xticks(True)
+plt.
