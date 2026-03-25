@@ -85,4 +85,4 @@ plt.close()
 print(titanic.info(),'\n')
 
 #결측지 처리
-titanic = 'titanic.'
+titanic = 'titanic.dropna(subest=[])'
