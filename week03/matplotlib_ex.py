@@ -112,4 +112,7 @@ plt.pie(survived_counts, labels=['Not Survived', 'Survived'], colors=['orange','
         autopct='%0.1f%%', startangle=90, shadow=True, explode=(0,0.1))
 
 plt.title('Survival Distribution on the Titanic')
-plt.savefig('')
+plt.savefig('Figure05.png')
+plt.close()
+
+"""### **히스토그램 : 승객의 나이 분"""
