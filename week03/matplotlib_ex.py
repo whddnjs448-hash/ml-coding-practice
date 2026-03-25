@@ -11,4 +11,6 @@ titanic = pd.read_csv('3.1.1.titanic.csv')
 print(titanic.head())
 
 #열에 대한 요약 정보 확인
-print(titanic.i)
+print(titanic.info())
+
+"""### **선 그램프 : 객실 등급에 따"""
