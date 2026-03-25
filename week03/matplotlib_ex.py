@@ -16,4 +16,4 @@ print(titanic.info())
 """### **선 그램프 : 객실 등급에 따른 생존율 표시하기**"""
 
 #객실 등급에 따른 생존자와 사망자의 평규 계산
-pclass_survi
+pclass_survived_mean = titanic.groupby('Pclass')['Survived'].
