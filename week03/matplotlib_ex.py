@@ -75,4 +75,4 @@ plt.axvline(x=survived_counts['male'], color='gray', linestyle='--', linewidth=1
 
 #생존자 수 표시
 for i value in enumerate(survived_counts):
-  plt.tex
+  plt.text(value)
