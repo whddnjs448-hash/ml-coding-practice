@@ -171,5 +171,5 @@ print(survived_counts)
 plt.figure(figsize=(10,6))
 
 #나이대별 생존자 
-plt.fill_between(survived_counts.index.astype(str), survived_counts[0],
-                 color=)
+plt.fill_between(survived_counts.index.astype(str), survived_counts[1],
+                 color='hotpink',alpha=0.6,)
