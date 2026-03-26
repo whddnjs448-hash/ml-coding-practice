@@ -269,4 +269,4 @@ plt.plot([4, 5, 6])
 plt.subplot(2, 2, 3)
 plt.plot([7, 8, 9])
 
-p
+plt.subplot(2, 2, 4)
