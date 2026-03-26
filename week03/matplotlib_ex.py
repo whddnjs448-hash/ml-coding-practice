@@ -265,3 +265,5 @@ plt.plot([1, 2, 3])
 
 plt.subplot(2, 2, 2)
 plt.plot([4, 5, 6])
+
+plt.subplot
