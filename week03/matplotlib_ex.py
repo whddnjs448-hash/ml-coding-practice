@@ -247,4 +247,5 @@ print(fare_std)
 # 에러바로 요금의 평균과 표준 편차 표현
 plt.figure(figsize=(10, 6))
 
-#에러바로 요금의 평균과 표준 편차 표현
+#에러바 생성
+plt.e
