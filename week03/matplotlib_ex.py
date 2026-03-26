@@ -205,4 +205,4 @@ plt.ylabel('Age')
 plt.savefig('Figure09.png')
 plt.close()
 
-"""###"""
+"""### **바이올린 플롯 : 승객 등급에 다른 나이 분포 표시하기"""
