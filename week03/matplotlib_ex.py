@@ -298,4 +298,4 @@ plt.plot(x, y1, '-o', color='indigo', markersize=7, linewidth=3, alpha=0.7,
 plt.xlabel('Parch')
 plt.ylabel('Not Survived Count', color='indigo')
 plt.tick_params(axis='y', labelcolor='indigo')
-plt.legend(loc='upper r')
+plt.legend(loc='upper right')
