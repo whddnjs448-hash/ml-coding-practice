@@ -141,4 +141,5 @@ plt.close()
 titanic = titanic.dropna(subset=['Age','Fare'])
 
 #상관 행렬 계산
-correlation_matrix = titanic.drop('Passengerld', axis=1).corr(nu)
+correlation_matrix = titanic.drop('Passengerld', axis=1).corr(numeeric_only=True)
+print(correlation)
