@@ -201,4 +201,8 @@ plt.boxplot([titanic[titanic['Pclass'] == 1]['Age'],
 
 plt.title('Box Plot for Age by Pclass')
 plt.xlabel('Pclass')
-plt
+plt.ylabel('Age')
+plt.savefig('Figure09.png')
+plt.close()
+
+"""###"""
