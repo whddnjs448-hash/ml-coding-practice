@@ -138,4 +138,4 @@ plt.close()
 ##히트맵 : 두변수의 상관 관계를 표시하기**
 
 # 결측지 처리
-titanic = 'titanic.dropna(subset=[])
+titanic = titanic.dropna(subset=['Age','Fare'])
