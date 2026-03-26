@@ -276,4 +276,7 @@ plt.close()
 
 ## **타이타닉 데이터셋으로 개별 서브플롯
 # Survived가 0이면 사망자를, 1이면 생존자를 나타냄
-titanic = pd.read
+titanic = pd.read_csv('3.1.1.titanic.csv')
+
+#각 부모와 자녀의 수에 따른 생존자와 사망자 수 계산
+parch_cou
