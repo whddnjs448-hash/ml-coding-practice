@@ -275,3 +275,5 @@ plt.savefig('Figure12.png')
 plt.close()
 
 ## **타이타닉 데이터셋으로 개별 서브플롯
+# Survived가 0이면 사망자를, 1이면 생존자를 나타냄
+titanic = pd.read
