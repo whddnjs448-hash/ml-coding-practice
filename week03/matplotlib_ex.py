@@ -239,4 +239,4 @@ plt.close()
 fare_means = titanic.groupby('Parch')['Fare'].mean() #평균
 print(fare_means, '\n')
 
-fare_std = titanic.gr
+fare_std = titanic.groupby('Parch')['Fare'].std() #표준 편차
