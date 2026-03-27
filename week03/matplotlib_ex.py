@@ -311,4 +311,8 @@ plt.legend(loc='upper right')
 plt.suptitle('Survival Analysis by Number of Parents/Children (Parch) on the Titanic')
 plt.tight_layout()
 plt.savefig('Figure12.png')
-plt.close
+plt.close()
+
+## **개별 서브플롯을 동시에 생성하기**
+
+# 2*2 구성의 figure
