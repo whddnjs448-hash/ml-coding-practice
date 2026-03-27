@@ -301,4 +301,4 @@ plt.tick_params(axis='y', labelcolor='indigo')
 plt.legend(loc='upper right')
 
 plt.subplot(2, 1, 2)
-plt
+plt.bar(x, y2, color= 'deeppink', alpha=)
