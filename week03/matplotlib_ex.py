@@ -389,4 +389,5 @@ ax1.legend(loc='upper right', bbox_to_anchor=(1, 1)) # 범례
 # .twinx() 함수를 사용하여 두 번째 그래프와 축을 공유하는 새로운 Axes 객체 생성
 ax2 = ax1.twinx()
 
-# 두 번째
+# 두 번째 그래프 설정 (막대 그래프)
+ax2.bar(x, y2, color='deeppink', alpha= 0.7)
