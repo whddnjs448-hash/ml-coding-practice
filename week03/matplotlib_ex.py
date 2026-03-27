@@ -85,7 +85,7 @@ plt.close()
 print(titanic.info(),'\n')
 
 #결측지 처리
-titanic = titanic.dropna(subest=['Age', 'Fare','Survived'])
+titanic = titanic.dropna(subset=['Age', 'Fare','Survived'])
 print(titanic.info())
 
 #산점도 그래프 그리기
