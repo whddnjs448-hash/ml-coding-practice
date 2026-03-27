@@ -300,4 +300,5 @@ plt.ylabel('Not Survived Count', color='indigo')
 plt.tick_params(axis='y', labelcolor='indigo')
 plt.legend(loc='upper right')
 
+plt.subplot(2, 1, 2)
 plt
