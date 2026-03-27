@@ -308,4 +308,4 @@ plt.tick_params(axis='y', labelcolor='deeppink')
 plt.legend(loc='upper right')
 
 # 제목 설정
-plt.suptitle('Sur')
+plt.suptitle('Survival Analysis by Number of Parents/C')
