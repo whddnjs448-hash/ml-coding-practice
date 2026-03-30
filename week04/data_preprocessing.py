@@ -69,4 +69,4 @@ housing_tr = pd.DataFrame(X, columns=housing_num.columns,
 housing_tr.loc[null_row_idx].head()
 
 # 이상치 삭제 
-from sklearn.ensemble import
+from sklearn.ensemble import IsolationForest
