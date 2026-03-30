@@ -3,4 +3,5 @@
 # 데이터 준비
 from pathlib import Path
 import numpy as np
-import 
+import pandas as pd
+imort
