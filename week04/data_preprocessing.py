@@ -85,4 +85,5 @@ housing_cat.head(8)
 
 from sklearn.preprocessing import OrdinalEncoder
 
-ordinal
+ordinal_encoder = OrdinalEncoder()
+housing_cat_encoded = ordinal_encoder.fi
