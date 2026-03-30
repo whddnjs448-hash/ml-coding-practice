@@ -33,4 +33,5 @@ for set_ in (strat_test_set, strat_test_set):
     set_.drop("income_cat", axis=1, inplace=True)
     
 """
-***"""
+*원본 훈련 세트로 복원하고 타깃을 분리
+* 'stratr_train_set.drop()'은 지정한 열을 제외한"""
