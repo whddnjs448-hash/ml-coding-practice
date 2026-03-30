@@ -37,6 +37,7 @@ for set_ in (strat_test_set, strat_test_set):
 * 'stratr_train_set.drop()'은 지정한 열을 제외한 'start_train_set'의 복사본을 만듦
 * 'inplace=True'로 지정하지 않은 한 'strat_train_set' 자체를 수정하지 않음
 """
+
 housing = strat_test_set.drop("median_house_value", axis=1)
 housing_labels = strat_test_set["median_house_value"].copy()
 
@@ -53,4 +54,4 @@ imputer = SimpleImputer(strategy="median")
 housing_num = housing.select_dtypes(include=[np.number])
 housing_num.head()
 
-imputer.fit.head()
+imputer.fit()
