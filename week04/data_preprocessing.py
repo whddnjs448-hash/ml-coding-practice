@@ -7,4 +7,5 @@ import pandas as pd
 import tarfile
 import urllib.request
 
-def load_housing_data9
+def load_housing_data():
+    tarball_path = Path("datasets/housing.tgz")
