@@ -56,4 +56,5 @@ housing_num.head()
 
 imputer.fit(housing_num)
 
-print(imputer.statistics_)
+print(imputer.statistics_)               # inpu
+print(housing_num.median().values)
