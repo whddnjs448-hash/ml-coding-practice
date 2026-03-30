@@ -41,4 +41,5 @@ housing = strat_test_set.drop("median_house_value", axis=1)
 housing_labels = strat_test_set["median_house_value"].copy()
 
 # 데이터 정제
-# nul
+# null 값이 있는 행 확인하기
+null_row_idx = housing.isnull().any()
