@@ -10,4 +10,5 @@ import urllib.request
 def load_housing_data():
     tarball_path = Path("datasets/housing.tgz")
     if not tarball_path.is_file():
-        Path("datasets").
+        Path("datasets").mkdir(parents=True, exist_ok=True)
+        url = "https://gi"
