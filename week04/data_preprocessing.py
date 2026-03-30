@@ -45,4 +45,8 @@ housing_labels = strat_test_set["median_house_value"].copy()
 null_row_idx = housing.isnull().any(axis=1)
 housing.loc[null_row_idx].head()
 
-from sklearn.impute import SimpleIm
+from sklearn.impute import SimpleImputer
+
+imputer = SimpleImputer(strategy="median")
+
+# 수
