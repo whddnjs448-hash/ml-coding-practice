@@ -76,4 +76,4 @@ outlier_pred = Isolation_Forest.fit_predict(X)
 
 outlier_pred
 
-hou
+housing = housing.iloc[outlier_pred ==1]
