@@ -7,4 +7,9 @@ import seaborn as sns
 tips = sns.load_dataset('tips')
 print(tips.head())
 
-tips
+tips.info()
+
+## **범주형 변수 산점도 그래프**
+
+import matplotlib.pyplot as plt
+
