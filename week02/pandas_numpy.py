@@ -15,7 +15,7 @@ a = pd.DataFrame(sample_dic)
 a.info()
 
 pd.DataFrame([[1,2,],[3,4],[5,6],[7,8]])
-pd.DataFrame([[1,2],[3,4],[5,6],[7,8]]), columns = ['var_1','var_2'], index=['a','b','c','d']
+pd.DataFrame([[1,2],[3,4],[5,6],[7,8]], columns = ['var_1','var_4'], index=['a','b','c','d'])
 
 import pandas as pd
 file_url = 'https://media.githubusercontent.com/media/musthave-ML10/data_source/main/sample_df.csv'
@@ -77,7 +77,7 @@ print(df.head())
 
 #필터링 조건 설정
 condition = (
-    (df['comment_lenght'] >=100) & #댓글 길이 100자 이상
+    (df['comment_length'] >=100) & #댓글 길이 100자 이상
     (df['likes'] >= 20) &          #좋아요 20개 이상
     (~df['is_spam'])&              #스팸 댓글이 아니어야 함
     (df['has_image'])              #이미지가 포한된 댓글이어야 함
