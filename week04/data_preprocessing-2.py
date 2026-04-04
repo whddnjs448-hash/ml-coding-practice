@@ -20,6 +20,7 @@ for set_ in (start_train_set, start_train_set):
     set_.drop("income_cat", axis=1, inplace=True)
     
 """
-
+* 원본 훈련 세트로 복원하고 타깃을 분리
+* 'strat_train_set.drop()'은 지정한 열을 제외한 'strat_train_set'의 복사본을 만듦
 
 """
