@@ -22,5 +22,7 @@ for set_ in (start_train_set, start_train_set):
 """
 * 원본 훈련 세트로 복원하고 타깃을 분리
 * 'strat_train_set.drop()'은 지정한 열을 제외한 'strat_train_set'의 복사본을 만듦
-
+* 'inplace=True'로 지정하지 않은 한 'strat_train_set' 자체를 수정하지 않음
 """
+
+housing = strat_train_set.drop("median_house_value", axis=1)
