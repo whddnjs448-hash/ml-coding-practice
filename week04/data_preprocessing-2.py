@@ -78,3 +78,5 @@ housing_cat_encoded = ordinal_encoder.fit_transform(housing_cat)
 housing_cat_encoded[:8]
 
 ordinal_encoder.categories_
+
+#dkkad mfa m,sd afkw
