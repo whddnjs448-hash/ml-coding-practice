@@ -8,5 +8,9 @@ client_secret = 'Client Secret'
 
 def main() :
     
-    node = 'nwes'
+    node = 'nwes'                              # 크롤링할 대상
     srcText = input('검색어를 입력하세요:')
+    
+    cnt = 0
+    jsonResult = []
+    
