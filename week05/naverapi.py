@@ -51,4 +51,6 @@ def getNaverSearch(node, srcText, page_start, display):
         return json.loads(responseDecode)
 
 def getRequestUrl(url):
-    req = urllib.req
+    req = urllib.request.Request(url)
+    
+    req.add_header
