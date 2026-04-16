@@ -50,4 +50,4 @@ def getNaverSearch(node, srcText, page_start, display):
     else:
         return json.loads(responseDecode)
 
-def getRe
+def getRequestUrl(url):
