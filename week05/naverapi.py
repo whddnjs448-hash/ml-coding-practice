@@ -57,4 +57,5 @@ def getRequestUrl(url):
     req.add_header("X-Naver-Client-Secret", client_secret)
     
     try:
-        response = urllib
+        response = urllib.request.urlopen(req)
+        if response.getcode
