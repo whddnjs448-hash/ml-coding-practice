@@ -90,4 +90,4 @@ def getPostData(post, jsonResult, cnt):    #[CODE 3]
     })    
     return
 
-main()
+main
