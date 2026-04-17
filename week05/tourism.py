@@ -46,4 +46,5 @@ def getTourismStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
         
         natName = jsonData['response']['body']['items']['item']['natKorNm']
         natName = natName.replace(' ', '')
-        num = jsonData['response']['body']['i']
+        num = jsonData['response']['body']['items']['item']['num']
+        ed = jsonData
