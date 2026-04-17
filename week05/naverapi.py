@@ -82,5 +82,5 @@ def getPostData(post, jsonResult, cnt):    #[CODE 3]
 
     jsonResult.append({
         'cnt' : cnt,
-        ''
+        'title' : 
     })    
