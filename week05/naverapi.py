@@ -68,4 +68,5 @@ def getRequestUrl(url):
 
 
 
-def getPostData(post, jsonResult, cn)
+def getPostData(post, jsonResult, cnt):    #[CODE 3]
+    title =post['t']
