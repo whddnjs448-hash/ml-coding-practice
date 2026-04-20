@@ -27,4 +27,4 @@ def main():
   
 """### [CODE 3]"""
 
-def getTouris
+def getTourisnStatsService(nat_cd, ed_cd, nStartYear, nEndYe)
