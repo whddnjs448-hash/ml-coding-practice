@@ -49,4 +49,5 @@ def getTourisnStatsService(nat_cd, ed_cd, nStartYear, nEndYear):
         num = jsonData['response']['body']['items']['item']['num']
         ed = jsonData['response']['body']['items']['item']['ed']
         print('[ %s_%s : %s ]' % (natName, yyyymm, num))
-        p
+        print('------------------------------------------------------')
+        jsonResult.app
