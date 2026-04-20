@@ -57,4 +57,6 @@ def getRequestUrl(url):
     req.add_header("X-Naver-Client-Id", client_id)
     req.add_header("X-Naver-Client-Secret", client_secret)
     
-    tr
+    try:
+        response = urllib.request.urlopen(req)
+        i
