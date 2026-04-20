@@ -59,4 +59,5 @@ def getRequestUrl(url):
     
     try:
         response = urllib.request.urlopen(req)
-        i
+        if response.getcode() == 200:
+            print("[%s] Url Request ")
