@@ -65,3 +65,5 @@ def getTourismStatsItem(yyyymm, nat_cd, ed_cd):
    parameters += "&ED_CD=" + ed_cd
    
   url =service_url + parameters
+  
+  resp
