@@ -42,3 +42,5 @@ def getNaverSearch(nod, srcText, page_start, display):
     node = "/%s.json" % node 
     parameters = "?query=%s&start=%s&display=%s" % (urllib.parse.quote(srcText), page_start, display)
     
+    url = base + node + parameters 
+    responseDecode = getRequestUrl(url)
