@@ -38,3 +38,4 @@ def main():
     
     
 def getNaverSearch(nod, srcText, page_start, display):
+    base
