@@ -2,4 +2,4 @@
 from sklearn.datasets import fetch_openml
 #dddd
 
-ㅇㅇㅇㅇㅇ
+ffkfkfk
