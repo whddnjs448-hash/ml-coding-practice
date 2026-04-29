@@ -5,3 +5,4 @@ mnist = fetch_openml('mnist_784', as_frame=False)
 
 print(mnist.key())   #data와 target만 사용
 
+X, y = mnist.data, mnist.target
