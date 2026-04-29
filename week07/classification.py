@@ -1,2 +1,4 @@
 # -*- coding: utf-8 -*-
-from sklearn.d
+from sklearn.datasets import fetch_openml
+
+mnist = fe
