@@ -18,4 +18,5 @@ def plot_digit(image_data):
     plt.imshow(image, cmap="binary")
     plt.axis("off")
     
-s
+some_digit = X[0]
+plot_digit(some)
