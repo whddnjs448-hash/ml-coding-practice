@@ -8,3 +8,7 @@ print(mnist.key())   #data와 target만 사용
 X, y = mnist.data, mnist.target 
 print(X)
 print(X.shape) #28 x 28개의 픽셀 특징을 가진 이미지 70,00개
+print(y)
+print(y.shape)
+
+import mat
