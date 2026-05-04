@@ -137,3 +137,7 @@ sns.barplot(x=genres.values, y=genres.index, hue=genres.index, palette='RdGy')
 plt.title('Distribution of Genres for Movies and TV Shows on Netflix', fontsize=16)
 plt.xlabel('Count', fontsize=14)
 plt.ylabel('Genre', fontsize=14)
+plt.grid(axis='x')
+plt.show()
+
+netflix[netflix['title'].str.contains('Sankofa', na=False, case=False)]
