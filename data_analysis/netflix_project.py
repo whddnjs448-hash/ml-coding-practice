@@ -100,3 +100,9 @@ netflix[netflix['title'].str.contains('Squid Game', na=False, case=False)]
 
 type_counts = netflix['type'].value_counts()
 print(type_counts)
+
+# 5 x 5 크기의 플롯 만들기
+plt.figure(figsize=(5, 5))
+
+plt.pie(type_counts, labels=type_counts.index, autopct='%0.f%%', startangle=100,
+        explode=[0.05, 0.05], shadow=True, colors=['#b20710', '#221f1f'])
