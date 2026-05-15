@@ -44,3 +44,8 @@ sgd_reg.fit(X, y.ravel())  # fit()이 1D 타깃을 기대하기 때문에 y.rave
 sgd_reg.intercept_, sgd_reg.coef_
 
 # 다항 회귀
+
+np.random.seed(42)
+m = 100
+X = 6 * np.random.rand(m, 1) - 3
+y = 0.5 * X ** 2 + X + 2 + np.random.randn(m, 1)
