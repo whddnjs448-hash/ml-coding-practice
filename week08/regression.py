@@ -82,3 +82,9 @@ plt.legend(loc="upper left")
 plt.axis([-3, 3, 0, 10])
 plt.grid()
 plt.show()
+
+# 릿지 회귀
+
+np.random.seed(42)
+m = 20
+X = 3 * np.random.rand(m, 1)
