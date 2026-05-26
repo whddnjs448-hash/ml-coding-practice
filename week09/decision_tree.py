@@ -80,3 +80,9 @@ tree_clf_pca.fit(X_iris_rotated, y_iris)
 # 추가 코드 - 이 셀은 그림 6-8을 생성하고 저장합니다.
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
+
+custom_cmap = ListedColormap(["#fafab0", "#9898ff", "#a0faa0"])
+
+plt.figure(figsize=(8, 4))
+
+axes = [-2.2, 2.4, -0.6, 0.7]
