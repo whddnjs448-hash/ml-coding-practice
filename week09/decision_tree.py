@@ -18,3 +18,9 @@ export_graphviz(
         rounded=True,
         filled=True
     )
+
+from graphviz import Source
+
+Source.from_file("iris_tree.dot")
+
+# 클래스 확률 추정
