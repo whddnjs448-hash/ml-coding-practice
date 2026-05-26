@@ -33,3 +33,8 @@ print(tree_clf.predict([[5, 1.5]]))
 from sklearn.datasets import make_moons
 
 X_moons, y_moons = make_moons(n_samples=150, noise=0.2, random_state=42)
+
+tree_clf1 = DecisionTreeClassifier(random_state=42)
+tree_clf2 = DecisionTreeClassifier(min_samples_leaf=5, random_state=42)
+tree_clf1.fit(X_moons, y_moons)
+tree_clf2.fit(X_moons, y_moons)
