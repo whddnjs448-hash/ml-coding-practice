@@ -93,3 +93,10 @@ y_pred = tree_clf_pca.predict(X_iris_pca_all).reshape(z0s.shape)
 
 plt.contourf(z0s, z1s, y_pred, alpha=0.3, cmap=custom_cmap)
 for idx, (name, style) in enumerate(zip(iris.target_names, ("yo", "bs", "g^"))):
+    plt.plot(X_iris_rotated[:, 0][y_iris == idx],
+             X_iris_rotated[:, 1][y_iris == idx],
+             style, label=f"Iris {name}")
+    
+plt.xlabel("$z_1$")
+plt.ylabel("$z_2$", rotation=0)
+th1, th2 = tree_clf_pca.tree_.threshold[[0, 2]]
