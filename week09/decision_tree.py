@@ -15,3 +15,6 @@ export_graphviz(
         out_file="iris_tree.dot",
         feature_names=["petal length (cm)", "petal width (cm)"],
         class_names=iris.target_names,
+        rounded=True,
+        filled=True
+    )
