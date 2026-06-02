@@ -12,3 +12,8 @@ plt.rc('ytick', labelsize=10)
 
 # K-평균
 from sklearn.cluster import KMeans
+from sklearn.datasets import make_blobs
+import numpy as np
+
+blob_centers = np.array([[ 0.2,  2.3], [-1.5 ,  2.3], [-2.8,  2.8],
+                         [-2.8,  4.2], [-2.8,  1.0]])
