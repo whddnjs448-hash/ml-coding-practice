@@ -145,3 +145,9 @@ def plot_dbscan(dbscan, X, size, show_xlabels=True, show_ylabels=True):
     plt.scatter(non_cores[:, 0], non_cores[:, 1], c=dbscan.labels_[non_core_mask], marker=".")
     if show_xlabels:
         plt.xlabel("$x_1$")
+    else:
+        plt.tick_params(labelbottom=False)
+    if show_ylabels:
+        plt.ylabel("$x_2$", rotation=0)
+    else:
+        plt.tick_params(labelleft=False)
